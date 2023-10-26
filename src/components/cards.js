@@ -51,7 +51,7 @@ const Card = ({ user, image, price, gig, granted, sendGig }) => {
         <p className=" py-2 border-b mx-8">{granted} Granted User</p>
         <p className=" py-2 border-b mx-8">Send up to {sendGig} GB</p>
       </div>
-      <button className=" bg-[#00df9a] mx-auto py-3 px-6 my-6 rounded-lg">
+      <button className=" bg-[#00b2df] mx-auto py-3 px-6 my-6 rounded-lg">
         Start Trial
       </button>
     </div>

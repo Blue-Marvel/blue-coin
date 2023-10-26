@@ -10,8 +10,8 @@ const NavBar = () => {
 
   return (
     <div className=" text-white flex items-center max-w-[1240px] mx-auto px-4 h-24 justify-between">
-      <h1 className=" w-full text-3xl font-bold text-[#00df9a]">REACT</h1>
-      <ul className=" md:flex hidden">  
+      <h1 className=" w-full text-3xl font-bold text-[#00b2df]">BLUE COIN</h1>
+      <ul className=" md:flex hidden">
         <li className=" p-4 ">Home</li>
         <li className=" p-4 ">Company</li>
         <li className=" p-4 ">Rescources</li>
@@ -28,7 +28,9 @@ const NavBar = () => {
             : " fixed left-[-100%]"
         }
       >
-        <h1 className=" w-full text-3xl font-bold text-[#00df9a] m-4">REACT</h1>
+        <h1 className=" w-full text-3xl font-bold text-[#00b2df] m-4">
+          BLUE COIN
+        </h1>
         <ul className=" p-4 uppercase">
           <li className=" p-4 border-b border-gray-600 ">Home</li>
           <li className=" p-4 border-b border-gray-600 ">Company</li>

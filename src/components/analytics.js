@@ -11,7 +11,7 @@ const Analytics = () => {
           className=" w-[500px] mx-auto my-4"
         />
         <div className="flex flex-col justify-center sm:px-5">
-          <p className=" text-[#00df9a] font-bold">DATA ANALYTICS DASHBOARD</p>
+          <p className=" text-[#00b2df] font-bold">DATA ANALYTICS DASHBOARD</p>
           <h1 className=" font-bold md:text-4xl sm:text-3xl text-xl py-2">
             Manage Data Analytics Centrally
           </h1>
@@ -22,7 +22,7 @@ const Analytics = () => {
             exercitationem voluptas vitae deserunt error?
           </p>
 
-          <button className=" bg-black w-[200px] font-medium rounded-md mx-auto md:m-0 py-3 my-6 text-[#00df9a]">
+          <button className=" bg-black w-[200px] font-medium rounded-md mx-auto md:m-0 py-3 my-6 text-[#00b2df]">
             Get Started
           </button>
         </div>
