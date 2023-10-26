@@ -1,23 +1,22 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import LoginPage from "./screens/login";
-import SignupPage from "./screens/signup";
-import Dashboard from "./screens/dashboard";
+import NavBar from "./components/navbar";
+import Hero from "./components/hero";
+import Analytics from "./components/analytics";
+import Newsletter from "./components/newsletter";
+import Cards from "./components/cards";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className=" flex flex-col items-center justify-center min-h-screen py-2  bg-gray-100">
-          <div className=" flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-            <Routes>
-              <Route path="/" element={<LoginPage />} />
-              <Route path="/sign-up" element={<SignupPage />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-            </Routes>
-          </div>
-        </div>
-      </Router>
+      <div>
+        <NavBar />
+        <Hero />
+       <Analytics />
+       <Newsletter/>
+       <Cards/>
+       <Footer/>
+      </div>
     );
   }
 }
